@@ -9,12 +9,16 @@ function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const form = useRef()
 
+  const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
 
   const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_b0v44r9', 'template_urvr446', form.current, 'eFSiE5KxwIzpq_cLP')
+      .sendForm(serviceID, templateID, form.current, publicKey)
       .then(
         () => {
           alert('Message successfully sent!')
