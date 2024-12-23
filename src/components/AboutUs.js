@@ -1,4 +1,3 @@
-// RiskEvall.js
 import React from 'react';
 import './AboutUs.css';
 
@@ -6,7 +5,7 @@ const MissionStatement = () => (
   <section className="mission">
     <h1>RiskEvall: Turning Risks Into Results</h1>
     <p>
-      At RiskEvall, we are committed to helping businesses navigate uncertainty with precision and purpose. 
+      At RiskEvall, we are committed to helping businesses navigate uncertainty with precision and purpose.
       As a new and dynamic cybersecurity firm, we combine honesty, integrity, and a results-driven mindset 
       to deliver real value to our clients.
     </p>
@@ -72,4 +71,13 @@ const Footer = () => (
   </footer>
 );
 
-export default { MissionStatement, Services, Values, Footer };
+const AboutUs = () => (
+  <section>
+    <MissionStatement />
+    <Services />
+    <Values />
+    <Footer />
+  </section>
+);
+
+export default AboutUs;
