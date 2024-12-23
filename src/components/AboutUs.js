@@ -62,21 +62,13 @@ const Values = () => (
   </section>
 );
 
-const Footer = () => (
-  <footer className="footer">
-    <p>
-      At RiskEvall, we believe every challenge is an opportunity. With our expertise and commitment to excellence, 
-      we’re ready to prove why we’re worth a shot.
-    </p>
-  </footer>
-);
+
 
 const AboutUs = () => (
   <section>
     <MissionStatement />
     <Services />
     <Values />
-    <Footer />
   </section>
 );
 
