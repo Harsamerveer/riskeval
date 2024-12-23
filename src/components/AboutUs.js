@@ -72,4 +72,4 @@ const Footer = () => (
   </footer>
 );
 
-export { MissionStatement, Services, Values, Footer };
+export default { MissionStatement, Services, Values, Footer };
