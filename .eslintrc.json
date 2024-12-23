@@ -4,12 +4,15 @@
       "node": true,
       "es2021": true
     },
+    "rules": {
+    "no-unused-vars": "off"
+    },
     "globals": {
       "process": "readonly"
     },
-    "extends": [
-      "eslint:recommended",
-      "react-app"
-    ]
-  }
+    "extends": 
+    {
+      "eslint":"recommended"
+    }
+}
   
