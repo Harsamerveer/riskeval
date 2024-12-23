@@ -1,18 +1,6 @@
 {
-    "env": {
-      "browser": true,
-      "node": true,
-      "es2021": true
-    },
-    "rules": {
+  "extends": "eslint:recommended",
+  "rules": {
     "no-unused-vars": "off"
-    },
-    "globals": {
-      "process": "readonly"
-    },
-    "extends": 
-    {
-      "eslint":"recommended"
-    }
+  }
 }
-  
