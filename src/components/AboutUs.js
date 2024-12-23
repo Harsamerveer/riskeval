@@ -1,12 +1,12 @@
-// RiskEval.js
+// RiskEvall.js
 import React from 'react';
-import './RiskEval.css';
+import './AboutUs.css';
 
 const MissionStatement = () => (
   <section className="mission">
-    <h1>RiskEval: Turning Risks Into Results</h1>
+    <h1>RiskEvall: Turning Risks Into Results</h1>
     <p>
-      At RiskEval, we are committed to helping businesses navigate uncertainty with precision and purpose. 
+      At RiskEvall, we are committed to helping businesses navigate uncertainty with precision and purpose. 
       As a new and dynamic cybersecurity firm, we combine honesty, integrity, and a results-driven mindset 
       to deliver real value to our clients.
     </p>
@@ -66,7 +66,7 @@ const Values = () => (
 const Footer = () => (
   <footer className="footer">
     <p>
-      At RiskEval, we believe every challenge is an opportunity. With our expertise and commitment to excellence, 
+      At RiskEvall, we believe every challenge is an opportunity. With our expertise and commitment to excellence, 
       we’re ready to prove why we’re worth a shot.
     </p>
   </footer>

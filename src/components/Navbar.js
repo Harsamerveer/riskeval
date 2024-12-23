@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#home">RiskEval</a>
+        <a className="navbar-brand" href="#home">RiskEvall</a>
         <button
           className="navbar-toggler"
           type="button"
