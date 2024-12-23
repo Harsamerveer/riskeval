@@ -31,17 +31,8 @@ function Contact() {
   };
 
   return (
-    <div
-    className="container my-2"
-    id="contact"
-    style={{
-      display: "flex",
-      justifyContent: "center", 
-    }}
-  >
-      {submitted ? (
-        <div className="alert alert-success text-center ph-2 py-1">Thank you! We'll get back to you soon.</div>
-      ) : (
+    <div className="container my-2" id="contact" style={{ display: "flex", justifyContent: "center" }}>
+    { submitted ? ( <div className="alert alert-success text-center ph-2 py-1">Thank you! We'll get back to you soon.</div>) : (
         <form ref={form} onSubmit={sendEmail}>
           <div className="mb-2 ">
           <h2 className="text-center mb-2">Contact Us</h2>
